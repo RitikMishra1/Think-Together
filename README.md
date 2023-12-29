@@ -6,6 +6,8 @@ Welcome to Think Together, your expert in Natural Language Processing (NLP) and 
 
 Developed by Ritik Mishra
 
+
+
 ## Key Features
 
 - Generate creative text formats
@@ -33,10 +35,26 @@ Developed by Ritik Mishra
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/RitikMishra1/Think-Together.git`
-2. Navigate to the project directory: `cd Think-Together`
-3. Install dependencies: `pip install -r requirements.txt`
-4. Run the application: `python app.py`
+ ### Prerequisites - 
+Python 3.9+ - Pip and Virtualenv
+
+ ### Setup 
+1. Clone this repository:
+git clone https://github.com/RitikMishra1/Think-Together.git
+
+2. Navigate to the directory:
+cd Think-Together
+
+3. Install the required dependencies:
+pip install -r requirements.txt
+
+
+4. Set up the necessary environment variables in a `.env` file, make sure this is set in the root directory of the project :
+GOOGLE_API_KEY='your_google_api_key'
+
+
+5. Start the application:
+python app.py
 
 ## Usage
 

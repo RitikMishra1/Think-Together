@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Think Together - Your AI Development Companion</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="app-header">
+        <div class="container">
+            <h1>Welcome to Think Together</h1>
+            <img src="/static/img/logo.png" alt="Think Together Logo" width="150" height="auto">
+
+            <h2>Your Expert in Natural Language Processing (NLP) and Code Generation</h2>
+            <p>Empowering Developers with Advanced Text and Code Processing</p>
+            <p>Developed by Ritik Mishra</p> 
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <div id="app" class="container">
+            <section id="chat-area" class="chat-area">
+                <!-- Chat messages will appear here -->
+            </section>
+            <div class="user-input">
+                <input id="user-message" type="text" placeholder="Type your message or ask a coding question..." onkeypress="if(event.keyCode == 13) sendMessage()">
+                <button onclick="sendMessage()"><i class="fas fa-paper-plane"></i> Send</button>
+                <button id="clear-chat" onclick="clearChat()"><i class="fas fa-redo-alt"></i> Clear Chat</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Key Functionalities Section -->
+    <section class="key-functionalities">
+        <div class="container">
+            <h2>Unlock the Power of Think Together</h2>
+            <ul>
+                <li><i class="fas fa-check"></i> Generate creative text formats</li>
+                <li><i class="fas fa-check"></i> Answer user questions informatively</li>
+                <li><i class="fas fa-check"></i> Summarize information</li>
+                <li><i class="fas fa-check"></i> Translate languages</li>
+                <li><i class="fas fa-check"></i> Complete sentence fragments</li>
+                <li><i class="fas fa-check"></i> Analyze text sentiment and emotion</li>
+                <li><i class="fas fa-check"></i> Generate coding solutions</li>
+                <li><i class="fas fa-check"></i> Translate code between languages</li>
+                <li><i class="fas fa-check"></i> Complete or fix incomplete code</li>
+                <li><i class="fas fa-check"></i> Generate code documentation</li>
+                <li><i class="fas fa-check"></i> Analyze code complexity and style</li>
+                <li><i class="fas fa-check"></i> Draw inferences from information</li>
+                <li><i class="fas fa-check"></i> Explain reasoning</li>
+                <li><i class="fas fa-check"></i> Ground knowledge in the real world</li>
+                <li><i class="fas fa-check"></i> Answer hypothetical questions</li>
+                <li><i class="fas fa-check"></i> Function calling</li>
+                <li><i class="fas fa-check"></i> Word and phrase embeddings</li>
+                <li><i class="fas fa-check"></i> Custom knowledge grounding</li>
+                <li><i class="fas fa-check"></i> Multi-turn chat functionality</li>
+                <li><i class="fas fa-check"></i> Streaming for faster interactions</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Unlock the Full Potential of AI</h2>
+            <p>Take your development projects to the next level with Think Together. Whether you're looking to enhance your text processing capabilities or streamline your coding tasks, we've got you covered.</p>
+            <button class="cta-button"><a href="#">Get Started</a></button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="chat-footer">
+        <div class="container">
+            <p>Connect with us on social media and stay updated with the latest advancements in AI for developers.</p>
+            <p>Powered by the Gemini API by Google.</p> 
+
+            <div class="social-links">
+                <a href="https://github.com/RitikMishra1" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/ritik-mishra1/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://twitter.com/RitikMi50136245" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
